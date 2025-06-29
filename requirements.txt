@@ -1,0 +1,27 @@
+# SDF to PDBQT Converter Pipeline Requirements
+# Python bağımlılıkları
+
+# Temel bilimsel hesaplama
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Moleküler işleme
+rdkit-pypi>=2022.9.1
+
+# Sistem ve paralel işleme
+multiprocessing-logging>=0.3.4
+
+# Loglama ve raporlama
+colorlog>=6.7.0
+
+# Dosya işleme
+pathlib2>=2.3.7; python_version<"3.4"
+
+# Test için (opsiyonel)
+pytest>=6.2.5
+pytest-cov>=3.0.0
+
+# Geliştirme için (opsiyonel)
+black>=21.7b0
+flake8>=3.9.0
+mypy>=0.910 
